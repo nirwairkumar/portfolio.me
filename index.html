@@ -1,13 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nirwair Kumar Chaudhary | IIT Madras | Full-Stack Developer</title>
-  <meta name="description" content="Portfolio of Nirwair Kumar Chaudhary - IIT Madras Civil Engineering student, curiosity-driven full-stack developer" />
-</head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nirwair Kumar Chaudhary | IIT Madras | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Nirwair Kumar Chaudhary - IIT Madras Civil Engineering student, curiosity-driven full-stack developer" />
+    <style>
+      #root {
+        min-height: 100vh;
+      }
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">
+        <div>
+          <h1>Nirwair Kumar Chaudhary</h1>
+          <p>Loading Portfolio...</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+        <h1>JavaScript Required</h1>
+        <p>Please enable JavaScript to view this portfolio.</p>
+      </div>
+    </noscript>
+  </body>
 </html>

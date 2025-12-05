@@ -18,7 +18,8 @@ const Skills = () => {
     'Git',
     'GitHub',
     'Power BI',
-    'AutoCAD'
+    'AutoCAD',
+    'C'
   ];
 
   return (
